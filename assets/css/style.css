@@ -1,0 +1,384 @@
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* nav */
+.navbar-brand img{
+    width: 120px;
+}
+
+.mover-derecha{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+
+.nav-link img{
+    width: 18px;
+}
+
+/* header */
+header{
+    background-image: url(../img/header__background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 40px;
+}
+
+.descripcion{
+    color: white;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    font-size: 1.3rem;
+}
+
+
+
+
+/* section eres lo que mides con grafico */
+.eres{
+    margin-top: 40px;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.container-text{
+    width: 100%;
+}
+
+.container-graphic{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+/* @media (min-width: 960px){
+    .container-text{
+        width: 60%;
+    }
+    .container-graphic{
+        justify-content: flex-end;
+        width: 30%;
+    }
+} */
+
+
+h2{
+    font-weight: 800;
+    font-size: 25px;
+}
+
+
+.p2{
+    margin-top: 0;
+    margin-bottom:2rem;
+    font-weight: 700;
+    font-weight: bold;
+}
+
+
+
+
+/* section solo textos */
+.textos{
+    margin-top: 20px;
+    padding: 30px 20px;
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+}
+
+.container-text{
+    width: 100%;
+}
+
+h3{
+    font-size: large;
+    font-weight: 700;
+    margin-bottom:2rem;
+}
+
+h4{
+    font-size: large;
+    font-weight: 700;
+    font-weight: bold;
+}
+
+
+
+/* section nuestros servicios */
+.card-title{
+    font-size: 14px;
+    font-weight: 800;
+    border-left: 5px solid rgb(17, 151, 26);
+    padding: 0 8px;
+}
+
+.card{
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    
+}
+
+
+
+/* section roja cuentanos */
+.cuentanos{
+    background-color: red;
+    text-align: center;
+    padding: 30px;
+}
+
+.cuentanos h2{
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+}
+
+.cuentanos button{
+    color: red;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+/* section proyectos */
+
+.proyectos{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.proyecto_con{
+    width: 32%;
+    padding-top:2rem;
+}
+
+
+
+.proyectos_con{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.proyecto_img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+    padding-bottom: 2rem;
+}
+
+
+
+.proyecto_img_1{
+    background-image: url(../img/oficina.jpg);
+    filter: grayscale(1);
+}
+
+.proyecto_img_1:hover{
+    background-image: url(../img/oficina.jpg);
+    filter: grayscale(0);
+}
+
+
+.proyecto_img_2{
+    background-image: url(../img/cocina.jpg);
+    filter: grayscale(1);
+}
+
+.proyecto_img_2:hover{
+    background-image: url(../img/cocina.jpg);
+    filter: grayscale(0);
+}
+
+
+
+.proyecto_img_3{
+    background-image: url(../img/retail.jpg);
+    filter: grayscale(1);
+}
+
+
+.proyecto_img_3:hover{
+    background-image: url(../img/retail.jpg);
+    filter: grayscale(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* section clientes */
+
+
+.clientes{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+
+
+.clientes_con{
+    width: 20%;
+}
+
+
+.clientes_con{
+    display: flex;
+}
+
+
+.clientes_img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+}
+
+
+.clientes_img_1{
+    background-image: url(../img/logo_juzuval.jpg);
+    
+}
+
+.clientes_img_2{
+    background-image: url(../img/logo_melemec.jpg);
+    
+}
+
+.clientes_img_3{
+    background-image: url(../img/logo_ingeprod.jpg);
+    
+}
+
+
+.clientes_img_4{
+    background-image: url(../img/logo_gesys.jpg);
+    
+}
+
+/* section quienes somos */
+
+
+.somos{
+    margin-top: 20px;
+    padding: 30px 20px;
+    padding-left: 0rem;
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 70px;
+}
+
+
+.container-somosfoto{
+    display: flex;
+    width: 35%;
+}
+
+.container-text{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+    background-color: #699C10;
+}
+
+
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.footer-logo{
+    width: 8em;
+}
+
+
+.mzingenieria{
+    font-size: 11px;
+    color: white;
+    margin-top: 8px;
+}
+
+
+.footer-text{
+    text-align: left;
+    list-style-type: none;
+    color: white; 
+}
+
+
+
+@media (min-width: 960px){
+    .container-text{
+        width: 60%;
+    }
+    .container-graphic{
+        justify-content: flex-end;
+        width: 30%;
+    }
+
+
+    .footer1{
+        flex-direction: row;
+    }
+}
